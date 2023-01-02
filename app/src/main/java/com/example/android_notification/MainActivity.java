@@ -33,8 +33,8 @@ public class MainActivity<Faisal> extends AppCompatActivity {
 
     NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_baseline_headphones_24)
-            .setContentTitle("Headphone")
-            .setContentText("hello channel welcome to my guys")
+            .setContentTitle("Headphone Warning")
+            .setContentText("You're Using Your HeadPhones For Long Time")
             .setStyle(new NotificationCompat.BigTextStyle()
                     .bigText("You're Using Your HeadPhones For Long Time ..."))
             .setPriority(NotificationCompat.PRIORITY_MAX);
